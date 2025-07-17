@@ -1,7 +1,7 @@
 export class Products_pages 
 {
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and since the prodcut test data is 1 string with 4 prodducts separated by conmma (,),
      * I did assign them in a new variable to convert them into array, split them by comma, trim, set to lower case, and replace space with -
      * The reason for that is to append their product name to button id (since their button id's structure is button#add-to-cart-{productname}

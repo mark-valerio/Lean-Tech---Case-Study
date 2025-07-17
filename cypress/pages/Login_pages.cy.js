@@ -1,6 +1,6 @@
 export class Login_pages {
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and it looks for the login page's username field and enter the username from the test data
      */
     enterUsername(){
@@ -17,7 +17,7 @@ export class Login_pages {
     }
 
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and it looks for the login page's password field and enter the password from the test data
      */
     enterPassword(){

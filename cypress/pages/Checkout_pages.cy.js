@@ -1,6 +1,6 @@
 export class Checkout_pages {
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and it looks for the first name field and enter the first name from the test data
      */
     enterFirstName(firstName){
@@ -17,7 +17,7 @@ export class Checkout_pages {
     }
 
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and it looks for the last name field and enter the last name from the test data
      */
     enterLasttName(lastName){
@@ -34,7 +34,7 @@ export class Checkout_pages {
     }
 
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and it looks for the postal code field and enter the postal code from the test data
      */
     enterPostalCode(postalCode){
@@ -80,7 +80,7 @@ export class Checkout_pages {
     }
 
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is for getting the test data from the testData.json file
      * and since the prodcut test data is 1 string with 4 prodducts separated by conmma (,),
      * I did assign them in a new variable to convert them into array, split them by comma, and trim
      * then looping through all the input products to compare with the getCartItems to make sure that all products are on product overview
