@@ -20,7 +20,7 @@ export class Cart_pages {
     }
 
     /**
-     * this function is getting the test data from the testData.json file
+     * this function is getting the test data from the testData.json file.
      * and since the prodcut test data is 1 string with 4 prodducts separated by conmma (,),
      * I did assign them in a new variable to convert them into array, split them by comma, and trim
      * then using length property to get the expected numberr of product to compare it with the number displayed on the counter
