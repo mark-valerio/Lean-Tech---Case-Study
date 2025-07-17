@@ -5,9 +5,7 @@
   "main": "index.js",
   
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "merge:reports": "npx mochawesome-merge cypress/reports/mochawesome/*.json > cypress/reports/mochawesome/merged-report.json",
-    "generate:report": "npx marge cypress/reports/mochawesome/merged-report.json --reportDir=cypress/reports/mochawesome --reportFilename=index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
